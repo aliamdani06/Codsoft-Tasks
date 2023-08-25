@@ -65,8 +65,12 @@ input {
     flex-grow: 0.1 !important;
 }
 
+.nav-item {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: bold !important;
+}
+
 a {
-    font-family: JosefinSans-BoldItalic !important;
     font-size: 18px !important;
     margin-right: 8px !important;
 }
