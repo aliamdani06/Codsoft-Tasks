@@ -12,20 +12,20 @@ body {
     src: url(fonts/Poppins-Regular.ttf);
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     #shef-img {
         height: 536px !important;
-}
+    }
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     #burger-img {
         height: 536px !important;
-}
+    }
 }
 
 input:focus {
-border: none !important;
+    border: none !important;
 }
 
 input::placeholder {
@@ -35,6 +35,7 @@ input::placeholder {
 h5 {
     font-weight: bold !important;
 }
+
 input {
     background-color: #fff;
     box-shadow: 0 2px 6px 0 rgba(59, 50, 50, 0.12);
@@ -46,21 +47,24 @@ input {
 .btn-secondary {
     height: 50px !important;
     background-color: rgb(70, 141, 70) !important;
-    box-shadow: 0 2px 6px 0 rgba(59, 50, 50, 0.12) !important ;
+    box-shadow: 0 2px 6px 0 rgba(59, 50, 50, 0.12) !important;
     border: none !important;
-    margin-inline-start: 5px !important ;
+    margin-inline-start: 5px !important;
 }
 
 .navbar {
     box-shadow: 0 2px 6px 0 rgba(59, 50, 50, 0.12) !important;
 }
-.navbar, #home  {
+
+.navbar,
+#home {
     background-color: #f7f7f7 !important;
 }
 
 #home {
     margin-bottom: 10px !important;
 }
+
 .navbar-collapse {
     flex-grow: 0.1 !important;
 }
@@ -92,7 +96,8 @@ h1 {
     margin-inline-start: 20px !important;
 }
 
-#text-white, #fs-4 {
+#text-white,
+#fs-4 {
     color: black !important;
     margin-bottom: 25px !important;
     margin-top: 40px;
@@ -118,7 +123,8 @@ h1 {
     border-radius: 20px !important;
 }
 
-#Reason, .fs-6 {
+#Reason,
+.fs-6 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
     color: orange !important;
     font-weight: bold !important;
@@ -149,7 +155,7 @@ h1 {
 }
 
 #card:hover {
-    background-color: rgb(244, 255, 244)  !important ;
+    background-color: rgb(244, 255, 244) !important;
     cursor: pointer;
     transition: .1s ease !important;
 }
@@ -161,9 +167,9 @@ h1 {
     width: 80% !important;
     box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 #dadce0;
     border: none !important;
-      background-color: #f7f7f7 !important;
-      margin-inline-start: 30px;
-      margin-inline-end: 30px;
+    background-color: #f7f7f7 !important;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
 }
 
 #history-section {
@@ -171,7 +177,7 @@ h1 {
 }
 
 .card:hover {
-    background-color: rgb(244, 255, 244)  !important ;
+    background-color: rgb(244, 255, 244) !important;
     cursor: pointer;
     border-bottom: goldenrod solid !important;
     transition: .1s ease !important;
@@ -197,7 +203,7 @@ h1 {
 }
 
 .mb-4 {
-font-weight: bold;
+    font-weight: bold;
 }
 
 #offers-div {
@@ -232,7 +238,7 @@ font-weight: bold;
 #card-body {
     text-align: left !important;
     padding: 0 !important;
-    margin-top: 10px !important ;
+    margin-top: 10px !important;
 }
 
 .text-start {
@@ -240,6 +246,7 @@ font-weight: bold;
     font-weight: bold !important;
     cursor: pointer !important;
 }
+
 .input-subscription-div {
     display: flex !important;
     justify-content: center !important;
@@ -247,6 +254,7 @@ font-weight: bold;
     margin-top: 50px !important;
     margin-bottom: 50px !important;
 }
+
 #input-subscription {
     border-radius: 50px !important;
     justify-content: center !important;
@@ -265,4 +273,28 @@ font-weight: bold;
     box-shadow: 0 0 0 0 !important;
     outline: none !important;
     border: none !important;
+}
+
+#services {
+    margin-top: 100px;
+}
+
+#footer {
+    background-color: #f7f7f7 !important;
+    color: black !important;
+    margin-top: 80px;
+    border-top: 2px solid rgb(70, 141, 70);
+}
+
+.btn-outline-light {
+    --bs-btn-color: #000000 !important;
+    --bs-btn-border-color: #000000 !important;
+}
+
+.btn-outline-light:hover {
+    background-color: transparent !important;
+    color: rgb(70, 141, 70) !important;
+    border: 1px solid rgb(70, 141, 70) !important;
+    transform: translate(0px, -3px);
+    transition: 0.5s;
 }
