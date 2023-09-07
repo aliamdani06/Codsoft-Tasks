@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.folio {
+    color: #08ebac !important;
+}
+
+#fa-brands {
+    color: white;
+    margin-right: 17px;
+}
+
+#fa-brands:hover {
+    color: #08ebac;
+}
+.navbar {
+    background-color: rgb(20 78 50);
+    box-shadow: none !important;
+}
+
+.anchor {
+    padding-right: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: white !important;
+
+}
+
+.anchor:hover {
+    color: #08ebac !important;
+}
+
+#fa-brands {
+    color: white;
+    margin-right: 17px;
+}
+
+#fa-brands:hover {
+    color: #08ebac;
+}
+
+#btn:hover {
+    color: black !important;
+    background-color: #08ebac !important;
+    border-color: #08ebac;
+}
+
+#btn {
+    background-color: transparent !important;
+    border-color: #08ebac !important;
+    color: #08ebac !important;
+}
+
+#btn2 {
+    color: var(--bs-btn-hover-color) !important;
+    background-color: #08ebac !important;
+    border-color: #08ebac !important;
+    color: black !important;
+}
+
+#btn2:hover {
+    background-color: transparent !important;
+    border-color: #08ebac !important;
+    color: #08ebac !important;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !important;
+}
+#CV:hover {
+    background-color: transparent !important;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.profile {
+    height: 100% !important;
+    width: 70% !important;
+}
+
+.gld {
+    color: #08ebac !important;
+}
