@@ -143,3 +143,50 @@
 .ff:hover {
     color: #08ebac !important;
 }
+
+.text-gold {
+    color: #08ebac !important;
+}
+
+.send {
+    background-color: #08ebac !important;
+    color: black !important;
+    border: none !important;
+    outline: none !important;
+    font-weight: bold !important;
+}
+
+.send:hover {
+    background-color: #10ad81 !important;
+}
+
+.cont {
+    color: #08ebac !important;
+}
+
+.foot-head {
+    color: #08ebac;
+}
+
+.footer-end {
+    text-transform: uppercase;
+    opacity: .8;
+    font-weight: bold;
+    color: #08ebac;
+}
+
+.icons:hover {
+    background-color: transparent !important;
+    color: #08ebac !important;
+    border: 1px solid #08ebac !important;
+    transform: translate(0px, -3px);
+    transition: 0.5s;
+}
+
+.whole {
+    font-family: 'Poppins', sans-serif;
+}
+
+.footshd {
+    box-shadow: 0px -1px 2px #ffffff2a;
+}
