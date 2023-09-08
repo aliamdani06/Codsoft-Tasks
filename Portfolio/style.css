@@ -125,3 +125,21 @@
 .brdr {
     border: 5px solid #08ebac !important;
 }
+
+.bg {
+    background-color: #08ebac;
+}
+
+.bo {
+    border: 2px solid black !important;
+    padding: 12px 14px;
+}
+
+.bo:hover {
+    background: black !important;
+    transition: 0.5s;
+}
+
+.ff:hover {
+    color: #08ebac !important;
+}
