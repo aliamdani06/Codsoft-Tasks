@@ -121,3 +121,7 @@
 .mb-4 {
     margin-bottom: 1.5rem!important;
 }
+
+.brdr {
+    border: 5px solid #08ebac !important;
+}
