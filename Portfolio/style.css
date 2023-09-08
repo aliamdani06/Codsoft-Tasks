@@ -79,3 +79,45 @@
 .gld {
     color: #08ebac !important;
 }
+
+#mb-3 {
+    font-size: 35px !important;
+    color: white !important ;
+}
+
+.goldleaf {
+    color: #08ebac;
+}
+
+.httml {
+    color: white;
+}
+
+.bg-1 {
+    background-color: #f06529 !important;
+}
+
+.bg-2 {
+    background-color: #264de4 !important;
+}
+
+.bg-3 {
+    background-color: #f0db4f !important;
+}
+
+.bg-4 {
+    background-color: #563d7c !important;
+}
+
+.bg-3 {
+    background-color: #f0db4f !important;
+}
+
+.daba {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem!important;
+}
